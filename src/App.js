@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-
-class App extends Component {
+import './index.css';
+import TopicBrowser from "./components/TopicBrowser/TopicBrowser";
+export default class App extends React.Component {
   render() {
-    
-  }
-}
-
-export default App;
+  return(
+  <div>
+  <div>
+  <TopicBrowser/>
+  </div>
+  </div>)}}
